@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Encabezado principal */
+header {
+  background-color: #1e90ff;
+  padding: 20px;
+}
+
+/* Bloques superiores del encabezado */
+.encabezado-superior {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.encabezado-superior .bloque {
+  background-color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Menú de navegación */
+.menu-navegacion {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-navegacion a {
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-navegacion a:hover {
+  color: rgb(240, 9, 9);
+}
+
+/* Contenido principal */
+.contenido-principal {
+  background-color: white;
+  margin: 40px auto;
+  padding: 40px;
+  max-width: 1000px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contenido-principal h1 {
+  margin-bottom: 20px;
+  color: #1e90ff;
+}
+
+.Footer p{
+    color: #1e90ff;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    
+    }
